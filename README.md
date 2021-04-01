@@ -11,7 +11,7 @@ The model is a simple Convolutional Neural Network whose structure is the follow
 
 In the notebook __GenderClassifierNotebook.ipynb__ , more details about the dataset can be found, the training process is explained and the results are explored. Plus, the __classifier.py__ python permits to adopt the pre-trained version of the model and apply it to your image. An example of the usage of this software is the following:
 ```python
-python genderclassifier.py --image_path /path/to/image --model_path /path/to/model
+python classifier.py --image_path /path/to/image --model_path /path/to/model
 ```
 
 The usage of this code to the __test.JPG__ image gave the following output:
